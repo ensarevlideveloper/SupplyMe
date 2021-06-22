@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "SupplyMe",
+    "slug": "supply-me",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./images/icon/SupplyMe.png",
+    "splash": {
+      "image": "./images/splash/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "./images/*",
+      "./languages/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.ensarevlideveloper.supplyme",
+      "buildNumber": "1.0.4",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location so we can show markets and availabilites around you",
+        "ITSAppUsesNonExemptEncryption": "NO"
+      },
+      "config": {
+        "googleMapsApiKey" :"XXX"
+      }
+    },
+    "android": {
+      "package": "com.ensarevlideveloper.supplyme",
+      "versionCode": 5
+    },
+    "locales": {
+      "de" : "./languages/locales/de-location-usage.json",
+      "fr" : "./languages/locales/fr-location-usage.json",
+      "nl" : "./languages/locales/nl-location-usage.json",
+      "it" : "./languages/locales/it-location-usage.json",
+      "tr" : "./languages/locales/tr-location-usage.json",
+      "es" : "./languages/locales/es-location-usage.json"
+    }
+  }
+}
+
